@@ -6,7 +6,7 @@
 var options = "";
 for (var i = 0; i < Object.keys(data).length; i++) {
   options += (i + 1) + ": " + Object.keys(data)[i] + "\n";
-}
+} 
 
 var selectedArray = prompt("Select an array:\n" + options);
 
